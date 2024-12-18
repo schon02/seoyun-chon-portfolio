@@ -1,0 +1,120 @@
+
+/* Add your styles here */
+body {
+    background: #ffffff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    /* width: 100%; */
+    margin: 0;
+    /* padding-top: 40px; */
+    /* padding-left: 10px; */
+    /* background-repeat: no-repeat; */
+}
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    width: 500px;
+}
+
+.welcomeImage {
+    background-image: url(perfumes_on_table.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+}
+
+.servicesImage {
+    background-image: url(three_perfumes.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+}
+
+.contactImage {
+    background-image: url(hands.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+}
+
+.welcomeText {
+    /* padding-top: 40px; */
+    position: absolute;
+    /* float: left; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000000;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+/* float: left; - Use float to get block elements to float next to each other */
+li {
+    float: left;
+}
+
+/* 
+ * display: block; - Allows us to specify padding (and height, width, margins, etc. if you want)
+ * padding: 8px; - Specify some padding between each <a> element, to make them look good
+ * c background-color: #dddddd; - Add a gray background-color to each <a> element 
+ */
+li a {
+      display: block;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgb(235, 192, 192);
+}
+
+/* lets user know which page they are on by changing the nav bar color of it */
+.active {
+    background-color: #000000;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #d1d1d1;
+    color: #fff;
+}
+
