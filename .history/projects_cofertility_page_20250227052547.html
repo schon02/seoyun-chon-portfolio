@@ -2,6 +2,7 @@
 <html>
     <head>
         <!-- <link href="style.css" rel="stylesheet" /> -->
+
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,20 +19,20 @@
         <!-- Style -->
         <link rel="stylesheet" href="css/style.css">
 
-        <title>Resume</title>
+        <title>Home Page</title>
+
     </head>
     
     <body>
         <!-- <header>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="index.html">Home</a></li>
                     <li><a href="services_page.html">Services</a></li>
-                    <li><a class="active" href="contact_page.html">Contact</a></li>
+                    <li><a href="contact_page.html">Contact</a></li>
                 </ul>
             </nav>
         </header> -->
-
 
         <div class="site-mobile-menu site-navbar-target">
             <div class="site-mobile-menu-header">
@@ -84,25 +85,25 @@
       
                         <ul class="site-menu main-menu js-clone-nav d-none d-lg-block">
                           <li><a href="index.html" class="nav-link">Home</a></li>
-                          <li><a href="projects_page.html" class="nav-link">Projects</a></li>
+                          <li class="active"><a href="projects_page.html" class="nav-link">Projects</a></li>
                           <li class="has-children">
-                            <a href="#" class="nav-link">Pages</a>
+                            <a href="gallery_page.html" class="nav-link">Gallery</a>
                             <ul class="dropdown arrow-top">
-                              <li><a href="#" class="nav-link">Team</a></li>
-                              <li><a href="#" class="nav-link">Pricing</a></li>
-                              <li><a href="#" class="nav-link">FAQ</a></li>
-                              <li class="has-children">
+                              <li><a href="#" class="nav-link">Cars</a></li>
+                              <li><a href="#" class="nav-link">Hobbies</a></li>
+                              <li><a href="#" class="nav-link">Travel</a></li>
+                              <!-- <li class="has-children">
                                 <a href="#">More Links</a>
                                 <ul class="dropdown">
                                   <li><a href="#">Menu One</a></li>
                                   <li><a href="#">Menu Two</a></li>
                                   <li><a href="#">Menu Three</a></li>
                                 </ul>
-                              </li>
+                              </li> -->
                             </ul>
                           </li>
                           <!-- <li><a href="#about-section" class="nav-link">About</a></li> -->
-                          <li class="active"><a href="resume_page.html" class="active">Resume</a></li>
+                          <li><a href="resume_page.html" class="nav-link">Resume</a></li>
                           <!-- <li><a href="#gallery-section" class="nav-link">Gallery</a></li> -->
                           <li><a href="contact_page.html" class="nav-link">Contact</a></li>
                         </ul>
@@ -113,33 +114,51 @@
               </div>
             </div>
           </div>
+          
+      
+          <div class="hero" style="background-image: url('images/s2k2.JPG');"></div>
 
-          <div class="hero" style="background-image: url('images/ferrari.JPG');"></div>
-
-        <!-- <div class="contactImage">
-            <div class="welcomeText">
-                <h1>Contact</h1> 
-            </div> 
-        </div> -->
-
-        <div class="text-center" style="padding-top: 2cm;">
-            <h1>— Resume —</h1>
-            <h2 style="padding-top: 1cm;">Email</h2>
-            <p>thefragranceboutique@domain.com</p>
-            <h2>Phone</h2>
-            <p>+1 234 4567 8910</p>
-            <h2>Order-Specific Emails</h2>
-            <p>orders@domain.com</p>
-            <p>returns@domain.com</p>
-            <p><img src="images/white-livingroom-contact.jpg" 
-                 style="width:450px;"></p>
+          <div style="padding-top: 1cm; padding-left: 1cm;">
+            <a href="projects_page.html">
+              <h4>< Back</h4>
+            </a>
+          </div>
+        
+        <div class="text-center" style="padding-top: 0.1cm;">
+          <h1>— Cofertility Metabase Customer Data Analysis Project —</h1>
         </div>
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/main.js"></script>
+
+        <div class="text-left" style="padding-top: 0.1cm; padding-left: 1cm;">
+          <h2 style="padding-top: 1cm;">Project Description</h2>
+          <p>The client wanted to implement a data visualization tool that would 
+            help them analyze user data and identify bottlenecks in the user 
+            conversion pipeline. This was done by collecting user data across 
+            multiple APIs and storing the data from the API calls into a 
+            Google BigQuery database. The database was then connected to 
+            Metabase, an open-source business intelligence platform that 
+            allows users to analyze data, create dashboards, and visualize 
+            data using SQL. </p>
+          <p><img src="images/cofertility_system_architecture.jpg" 
+            style="width:500px; padding-top: 0.1cm;"></p>
+          <p><img src="images/cofertility_project_deliverables.jpg" 
+            style="width:500px; padding-top: 0.1cm;"></p>
+          <h2 style="padding-top: 0.1cm;">Dashboard</h2>
+          <p>For the sake of privacy and protecting client data, I am only 
+            able to show an example of the final dashboard.</p>
+            <p><img src="images/metabase_dashboard_example.png" 
+              style="width:500px; padding-top: 0.1cm;"></p>
+        </div>
+
+
+  
+
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/main.js"></script>
 
     </body>
 
